@@ -18,7 +18,7 @@ namespace CmsShoppingCart.Models
         public string Slug { get; set; }
 
         [Required]
-        public string Context { get; set; }
+        public string Content { get; set; }
         public int Sorting { get; set; }
     }
 }
